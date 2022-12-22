@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sample</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='sample/style.css')}}"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!--include back(return to home) button-->
+    {% include 'main/back-button.html' %}
+
+    <!-- id="download" gives the div to be downloaded as PNG -->
+    <div class="container" id="download">
+      <div class="header">
+        <div class="foss-logo">
+          <img
+            src="{{url_for('static', filename='main/images/foss.png')}}"
+            alt="no logo found"
+          />
+        </div>        
+      </div>
+      <div class="baubles">
+         <img src="{{url_for('static', filename='main/images/baubles1.png')}}">
+      </div>
+      <div class="content">
+        <div class="event-header">
+          <img src="{{url_for('static', filename='main/images/christmas.png')}}">
+        </div>
+        <div class="greeting">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque laboriosam a quibusdam voluptates modi dolorem iste doloribus vitae nemo minus.</p>
+        </div>
+        <div class="details">
+          <div class="participant-name">Your Name</div>
+        </div>
+        <div class="santa">
+         <img src="{{url_for('static', filename='main/images/santa.png')}}">
+      </div>
+      </div>
+    </div>
+
+    <!--include download card button-->
+    {% include 'main/download-card.html' %}
+  </body>
+</html>
