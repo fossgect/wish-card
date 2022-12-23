@@ -1,15 +1,12 @@
 # HACKTOBER FIESTA - 21
 
 ## Prerequisites
-- Sign up to [hacktoberfest](https://hacktoberfest.digitalocean.com/)
+
 - Have python and pip installed on your system
 
 <br>
 
-## Note
-- Create a new pull request, only after the previous one is accepted
 
-<br>
 
 ## Setup
 
@@ -50,12 +47,36 @@ The application can be run using the command. The application will be running at
 python app.py
 ```
 
-
-
 <br>
 
 
-### How to Commit 
+## Make Your Card
+
+* Open the file &namelist.html within templates folder, where the names of all the participants seen on the homepage of the website is given. Copy the relevant section of code as shown below and insert another record with your own details.
+
+```
+<a class="participant" href="/<github-username>">
+  <div>
+    <div class="name"> <your name> </div>
+    <div class="college"> <your college> </div>
+  </div>
+</a>
+
+```
+
+* Within templates folder create a copy of sample.html and change the name to ```<your_github_username>.html``` If your username is ```abc``` then change the new file's name to ```abc.html```.
+* Going to the url ```localhost:5000/<github-username>``` will now give you the sample card.
+* Within static folder, create a copy of "sample" folder and modify its name to your "github-username"
+* Open the earlier created html file in a text editor of your choice. Change the name inside ```<title>``` tag.
+* Now, replace the path to the css file with the path to the css file in your newly created folder in static.
+* You can change the css file within the your newly created folder in static. New CSS styles or even animations can be included.
+* The dimensions of the card must remain the same.
+* Copying another participants code is strictly prohibited.
+
+
+
+
+## How to Commit 
 You can check your change using the following command
 
 ```
@@ -80,7 +101,7 @@ The `commit message` message should specify what is the change made for, it will
 
 <br><br>
 
-### Pushing the commit
+## Pushing the commit
 
 Now that you have commited your changes you should push the changes to the remote git repository for that you can use the following command, given below
 
@@ -92,7 +113,7 @@ This will automatically push your commit to the remote repository, it may ask yo
 
 <br><br>
 
-### Create A Pull Request(PR)
+## Create A Pull Request(PR)
 - Push your changes to the github repository.
 - Go To Pull requests tab on github
 - Click on `New Pull Request` button. 
