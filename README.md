@@ -69,9 +69,16 @@ python app.py
 * Within static folder, create a copy of "sample" folder and modify its name to your "github-username"
 * Open the earlier created html file in a text editor of your choice. Change the name inside ```<title>``` tag.
 * Now, replace the path to the css file with the path to the css file in your newly created folder in static.
+
+### Put Your Creative Hat
 * You can change the css file within the your newly created folder in static. New CSS styles or even animations can be included.
+<br>
+
+* Click on ```Download Card``` button to download your card
 * The dimensions of the card must remain the same.
 * Copying another participants code is strictly prohibited.
+* Make sure your make an PR before put your card into story. Any story without PR will not be accepted
+
 
 
 
