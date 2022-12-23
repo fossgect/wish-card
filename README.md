@@ -1,4 +1,4 @@
-# HACKTOBER FIESTA - 21
+# The Wish Card
 
 ## Prerequisites
 
