@@ -4,7 +4,6 @@
 
 - Have python and pip installed on your system
 
-<br>
 
 ## Note
 * Make sure your make an PR before put your card into story. Any story without PR will not be accepted (How to make PR is mentioned below)
