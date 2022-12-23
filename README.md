@@ -30,7 +30,7 @@ git clone <url_to_forked_repository>
 ### Step 3 - Changing working directory
 This will change the working directory to the newly cloned repository. 
 ```
-  cd HACKTOBER-FIESTA21/
+  cd wish-card/
 ```
 
 <br>
