@@ -72,7 +72,7 @@ python app.py
 
 ### Put Your Creative Hat
 * You can change the css file within the your newly created folder in static. New CSS styles or even animations can be included.
-<br>
+
 
 ### Get Your Card
 
