@@ -7,7 +7,7 @@
 <br>
 
 ## Note
-* Make sure your make an PR before put your card into story. Any story without PR will not be accepted
+* Make sure your make an PR before put your card into story. Any story without PR will not be accepted (How to make PR is mentioned below)
 * The dimensions of the card must remain the same.
 * Copying another participants code is strictly prohibited.
 
