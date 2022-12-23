@@ -6,7 +6,10 @@
 
 <br>
 
-
+## Note
+* Make sure your make an PR before put your card into story. Any story without PR will not be accepted
+* The dimensions of the card must remain the same.
+* Copying another participants code is strictly prohibited.
 
 ## Setup
 
@@ -77,9 +80,8 @@ python app.py
 ### Get Your Card
 
 * Click on ```Download Card``` button to download your card
-* The dimensions of the card must remain the same.
-* Copying another participants code is strictly prohibited.
-* Make sure your make an PR before put your card into story. Any story without PR will not be accepted
+
+
 
 
 
