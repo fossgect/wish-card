@@ -23,8 +23,7 @@ body {
 }
 
 .container {
-    height: 80vh;
-    width: 34vw;
+    width: 40vw;
     margin: auto;
     margin-bottom: 3vh;
     margin-top: 3vh;
@@ -46,8 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
-    margin-top: 65px;
+    padding-top: 8vh;
 }
 
 .santa img {
@@ -61,16 +59,10 @@ body {
 .header {
     width: 100%;
     display: flex;
-    margin-top: 6vh;
-}
-
-.logo {
-    flex: 50%;
 }
 
 .foss-logo img {
     width: 16%;
-    margin-left: 8%;
 }
 
 .event-header {
@@ -97,82 +89,51 @@ body {
     margin-top: 3vh;
 }
 
-.participant-college {
-    font-size: 14px;
+.participant-name {
+    font-size: 18px;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 1300px) {
+    .container {
+        width: 50vw;
+    }
+
 }
 
 /* ----------------------------------------------------------------- */
 
 @media only screen and (max-width: 1100px) {
     .container {
-        height: 90vh;
-        width: 30vw;
+        width: 60vw;
     }
 
-    .image img {
-        width: 50%;
-        margin-left: 25%;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media only screen and (max-width: 900px) {
+
+    .container {
+        width: 75vw;
     }
 }
 
 /* ----------------------------------------------------------------- */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
     .container {
-        height: 90vh;
-        width: 35vw;
-    }
-
-    .image img {
-        width: 55%;
-        margin-left: 22.5%;
-    }
-
-    .card-purpose {
-        margin-top: 4vh;
-    }
-}
-
-/* ----------------------------------------------------------------- */
-
-@media only screen and (max-width: 800px) {
-    .header {
-        margin-top: 10vh;
-    }
-
-    .container {
-        width: 40%;
-    }
-
-    .image img {
-        margin-top: 4vh;
-    }
-}
-
-/* ----------------------------------------------------------------- */
-
-@media only screen and (max-width: 675px) {
-    .container {
-        width: 50%;
+        width: 90vw;
     }
 }
 
 /* ----------------------------------------------------------------- */
 
 @media only screen and (max-width: 500px) {
-    .header {
-        margin-top: 8vh;
-    }
-
     .container {
-        width: 70%;
+        width: 100vw;
     }
 }
 
 /* ----------------------------------------------------------------- */
-
-@media only screen and (max-width: 400px) {
-    .container {
-        width: 90%;
-    }
-}
