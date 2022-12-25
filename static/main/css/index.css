@@ -23,7 +23,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #fdf7fb;
+    background-color: #ffffff;
 }
 
 .container {
@@ -42,6 +42,8 @@ body {
 }
 
 .right {
+    display: flex;
+    justify-content: center;
     flex: 30%;
     height: 86vh;
     padding-top: 7vh;
